@@ -1,6 +1,7 @@
 name: Auto Accept Collabs
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '*/15 * * * *'
 
